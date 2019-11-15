@@ -1,5 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #999;
+  background-color: #fff;
 }
 #wrapper {
   max-width: 940px;
@@ -20,6 +22,9 @@ header {
   float: left;
   margin: 0 0 30px 0;
   width:  100%;
+  
+  background: #c98f13;
+  border-color: #bb6a27;
 }
 
 #logo {
@@ -38,6 +43,8 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
+  
+  background: #cfa549;
 }
 
 nav ul {
@@ -91,4 +98,31 @@ PAGE: PORTFOLIO
   padding: 5%;
   font-size: 0.75em;
   color:#bdc3c7
+}
+
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #bb6a27;
+}
+
+/* nav link */
+nav a {
+  color: #fff;
+}
+
+nav a:visited {
+  color: #bb6a27;
+}
+nav a:hover {
+  color: #c98f13;
+}
+/* selected nav link */
+nav a.selected {
+  color: #169b37;
 }
